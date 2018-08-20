@@ -5,11 +5,12 @@
     </div>
     <div class="tab">
       <div class="tab-item">
-        <a v-link="{path:'/goods'}">商品</a>
+        <router-link to="/goods">商品</router-link>
       </div>
       <div class="tab-item">
+        <router-link to="/ratings">评论</router-link>
       </div>
-      <div class="tab-item">商家</div>
+      <router-link to="/seller">商家</router-link>
     </div>
     <router-view></router-view>
   </div>

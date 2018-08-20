@@ -1,9 +1,11 @@
 <template>
-  <div class="goods">商品</div>
+  <div class="ratings">评论</div>
 </template>
 
-<script type="text/ecmascript-6">
-  export default {};
+<script>
+  export default {
+    name: "ratings"
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

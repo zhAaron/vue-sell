@@ -1,12 +1,9 @@
 <template>
-  <div class="header">
-    <div class="header-wrapper">头部</div>
-  </div>
+  <div class="seller">商家</div>
 </template>
 
 <script type="text/ecmascript-6">
   export default {};
-
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
